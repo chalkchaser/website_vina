@@ -6,8 +6,6 @@
 
 
 
-
-
     function readJson(){
     $.ajax({
         url: "produktdata.json",
@@ -30,11 +28,17 @@
     function generateHyperlinks(data){
     var obj = data
         jQuery.each(data, function (key1, value){
-        var element = document.createElement('button');
-        $(element).attr("onclick", "build(products, "+ JSON.stringify(key1)+ ")")
-        element.innerHTML = key1
-        document.getElementById("hyperlinks").append(element)
-        alert(JSON.stringify(value))
+            var element = document.createElement('button');
+            $(element).attr("onclick", "build(products, "+ JSON.stringify(key1)+ ")")
+            element.innerHTML = key1
+            document.getElementById("hyperlinks").append(element)
+            //alert(JSON.stringify(value))
+            jQuery.each(value, function (key2, value2){
+                var element2 = document.createElement('button')
+                //onclick
+                element2.innerHTML = value2
+                document.getElementById("hyperlinks").append(element2)
+            })
 
         })
 
