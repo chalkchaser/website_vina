@@ -41,7 +41,7 @@
 
             jQuery.each(value, function (key2, value2){//sublinks
                 var element2 = document.createElement('button')
-                $(element2).attr("class" ,key1)
+                $(element2).attr("class" ,"button "+ key1)
                 //$(element2).attr("display","none")//hides subgroups
                 //onclick
                 element2.innerHTML = value2
@@ -56,8 +56,10 @@
 
     function clicked(key) {
        // alert((key))
+        $(".button").hide() //hides all other buttons first
+
         build(products, key)
-        $("."+key).show()
+        $("."+key).show()//reveals correlating buttons
     }
 
     function build(data,g1){
