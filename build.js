@@ -28,21 +28,37 @@
     function generateHyperlinks(data){
     var obj = data
         jQuery.each(data, function (key1, value){
+            var divelement = document.createElement('div')
+            $(divelement).attr("id", key1)
+            document.getElementById("hyperlinks").append(divelement)
             var element = document.createElement('button');
-            $(element).attr("onclick", "build(products, "+ JSON.stringify(key1)+ ")")
+
+            $(element).attr("onclick", "clicked("+ JSON.stringify(key1)+ ")")
             element.innerHTML = key1
-            document.getElementById("hyperlinks").append(element)
-            //alert(JSON.stringify(value))
-            jQuery.each(value, function (key2, value2){
+
+            document.getElementById(key1).append(element)
+
+
+            jQuery.each(value, function (key2, value2){//sublinks
                 var element2 = document.createElement('button')
+                $(element2).attr("class" ,key1)
+                //$(element2).attr("display","none")//hides subgroups
                 //onclick
                 element2.innerHTML = value2
-                document.getElementById("hyperlinks").append(element2)
+
+                document.getElementById(key1).append(element2)
+                $(element2).hide()
             })
 
         })
 
 }
+
+    function clicked(key) {
+       // alert((key))
+        build(products, key)
+        $("."+key).show()
+    }
 
     function build(data,g1){
     var obj = data
