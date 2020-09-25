@@ -22,6 +22,7 @@
     <list default="true" id="1c8eebe8-a9e2-4fbb-9f32-58c7f43e3338" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produktdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/produktdata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,8 @@
       <workItem from="1600275378131" duration="414000" />
       <workItem from="1600440192884" duration="3322000" />
       <workItem from="1600787117478" duration="2664000" />
-      <workItem from="1600862465082" duration="2865000" />
+      <workItem from="1600862465082" duration="14628000" />
+      <workItem from="1601045643674" duration="2149000" />
     </task>
     <servers />
   </component>
@@ -95,6 +97,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="758" y="310" key="#Web_Browsers" timestamp="1601045934424">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="758" y="310" key="#Web_Browsers/0.0.1920.1044@0.0.1920.1044" timestamp="1601045934424" />
+    <state x="781" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601045933219">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="781" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1601045933219" />
     <state x="624" y="238" key="run.anything.popup" timestamp="1599825567680">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

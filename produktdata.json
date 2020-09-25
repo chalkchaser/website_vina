@@ -4,21 +4,21 @@
       "Name": "test",
       "VE": 1,
       "G1": "TestGruppe1",
-      "G2": "G2",
+      "G2": "fail",
       "Beschreibung": "Beschreibungtest"
     },
     "0001": {
       "Name": "test2",
       "VE": 2,
       "G1": "TestGruppe2",
-      "G2": "G2",
+      "G2": "Untertestgruppe2",
       "Beschreibung": "TestBeschreibung askjdasdg"
     },
     "0002": {
       "Name": "testprodukt",
       "VE": 12,
       "G1": "TestGruppe1",
-      "G2": "G2",
+      "G2": "Untertestgruppe1",
       "Beschreibung": "Das ist eine Beschreibung"
     }
   },

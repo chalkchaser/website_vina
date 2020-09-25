@@ -43,7 +43,7 @@
                 var element2 = document.createElement('button')
                 $(element2).attr("class" ,"button "+ key1)
                 //$(element2).attr("display","none")//hides subgroups
-                //onclick
+                $(element2).attr("onclick", "clicked("+ JSON.stringify(value2)+ ")")
                 element2.innerHTML = value2
 
                 document.getElementById(key1).append(element2)
@@ -69,7 +69,7 @@
     jQuery.each(data, function(key1,value){
     items = document.getElementById("itemdisplay")
 
-    if(value.G1 === group || g1 === undefined) {
+    if(value.G1 === group ||value.G2 === group || g1 === undefined) {
     var nummer = document.createElement('div');
     nummer.innerHTML += "nr: " + key1;
 
