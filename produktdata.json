@@ -27,10 +27,16 @@
   },
   "Gruppen": {
     "Gruppe1": {
-      "Untergruppe": "Untergruppe1.5"
+      "Untergruppe": [
+        "Untergruppe1",
+        "Untergruppe1.5"
+      ]
     },
     "Gruppe2": {
-      "Untergruppe": "Untergruppe2"
+      "Untergruppe": [
+        "Untergruppe2"
+      ]
     }
   }
 }
+
