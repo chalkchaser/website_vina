@@ -70,26 +70,31 @@
     items = document.getElementById("itemdisplay")
 
     if(value.G1 === group ||value.G2 === group || g1 === undefined) {
-    var nummer = document.createElement('div');
-    nummer.innerHTML += "nr: " + key1;
+        var nummer = document.createElement('div');
+        nummer.innerHTML += "nr: " + key1;
 
-    var name = document.createElement('div');
-    name.innerHTML += value.Name;
+        var name = document.createElement('div');
+        name.innerHTML += value.Name;
 
-    var ve = document.createElement('div');
-    ve.innerHTML += "VE: " + value.VE;
+        var preis = document.createElement('div');
+        preis.innerHTML += "Preis: " + value.Preis + "€";
 
-    var beschreibung = document.createElement('div');
-    beschreibung.innerHTML += " " + value.Beschreibung;
+        var ve = document.createElement('div');
+        ve.innerHTML += "VE: " + value.VE;
 
-    items.appendChild(nummer)
-    items.appendChild(name)
-    items.appendChild(ve)
-    items.appendChild(beschreibung)
-    var newPicture = document.createElement("img")
+        var beschreibung = document.createElement('div');
+        beschreibung.innerHTML += " " + value.Beschreibung;
 
-    $(newPicture).attr("src", "images/" + key1 + ".jpg")
-    //$("#img"+key1).wrap("<a href='images/0000.jpg'></a>");
+        items.appendChild(nummer)
+        items.appendChild(name)
+        items.appendChild(preis)
+
+        items.appendChild(ve)
+        items.appendChild(beschreibung)
+        var newPicture = document.createElement("img")
+
+        $(newPicture).attr("src", "images/" + key1 + ".jpg")
+        //$("#img"+key1).wrap("<a href='images/0000.jpg'></a>");
 
     items.appendChild(newPicture)
 }
