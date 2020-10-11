@@ -75,6 +75,22 @@
         single_item = document.createElement("li")
         single_item.className = "flex_item"
         if(value.G1 === group ||value.G2 === group || g1 === undefined) {
+
+            //ADD IMAGE
+            var productImageDivider = document.createElement("div")
+            productImageDivider.className = "productImages"
+            var newPicture = document.createElement("img")
+
+            $(newPicture).attr("src", "images/" + key1 + ".jpg")
+            //$("#img"+key1).wrap("<a href='images/0000.jpg'></a>");
+
+            productImageDivider.appendChild(newPicture)//adds a container for images resizing
+
+            single_item.appendChild(productImageDivider)
+            items.appendChild(single_item)
+
+            //IMAGE ADD FINISHED
+
             var nummer = document.createElement('div');
             nummer.innerHTML += "nr: " + key1;
 
@@ -97,17 +113,6 @@
             single_item.appendChild(ve)
             single_item.appendChild(beschreibung)
 
-            var productImageDivider = document.createElement("div")
-            productImageDivider.className = "productImages"
-            var newPicture = document.createElement("img")
-
-            $(newPicture).attr("src", "images/" + key1 + ".jpg")
-            //$("#img"+key1).wrap("<a href='images/0000.jpg'></a>");
-
-            productImageDivider.appendChild(newPicture)//adds a container for images resizing
-
-         single_item.appendChild(productImageDivider)
-        items.appendChild(single_item)
         if(g1 !== undefined) {
             document.getElementById("currentlocation").innerHTML = g1
         }else {document.getElementById("currentlocation").innerHTML = "Alle"}

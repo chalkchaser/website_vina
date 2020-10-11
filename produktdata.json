@@ -23,6 +23,46 @@
       "G1": "Gruppe2",
       "G2": "Untergruppe2",
       "Beschreibung": "Katzen sind katzen."
+    },
+    "0003": {
+      "Name": "testkatze",
+      "VE": 4,
+      "Preis": 13.37,
+      "G1": "Gruppe1",
+      "G2": "Untergruppe1",
+      "Beschreibung": "Lorem Ipsum"
+    },
+    "0004": {
+      "Name": "Andere Testkatze",
+      "VE": 3,
+      "Preis": 2,
+      "G1": "Gruppe1",
+      "G2": "Untergruppe1",
+      "Beschreibung": "Eine Katze sie zu knechten"
+    },
+    "0005": {
+      "Name": "Die Katze der Katzen",
+      "VE": 2,
+      "Preis": 3.5,
+      "G1": "Gruppe1",
+      "G2": "Untergruppe1",
+      "Beschreibung": "Larifarialarila, na na na na na na na na bla bla blub trolololololololololo? Das ist ein Text, Hello World, Hallo World."
+    },
+    "0006": {
+      "Name": "Tomate",
+      "VE": 6,
+      "Preis": 4,
+      "G1": "Gruppe2",
+      "G2": "Untergruppe2",
+      "Beschreibung": "Test"
+    },
+    "0007": {
+      "Name": "Der der, der das macht",
+      "VE": 8,
+      "Preis": 98.99,
+      "G1": "Gruppe1",
+      "G2": "Untergruppe1",
+      "Beschreibung": 123
     }
   },
   "Gruppen": {
@@ -39,4 +79,3 @@
     }
   }
 }
-

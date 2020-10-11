@@ -6,21 +6,72 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    list-style: none;
+    width: 85%;
+    float: right;
     /*padding: 24px; */
+
+    margin:0;
+    padding:0;
+
 
 }
 
 .flex_item{
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    max-width: 480px;
+    word-break:break-all;
     padding: 16px;
     text-align: left;
+
+
 }
 
 .productImages{
-    width: 640px;
-    height: 480px;
-    border-radius:6px;
+    width: 480px;
+    height: 360px;
+
 }
 
 img{
     width: 100%;
+    border-radius:4px;
+
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 85%;
+}
+
+.sidenav {
+    position:fixed;
+    height: 100%;
+    Width: 15%;
+    float: left;
+    background: #3b4c5c;
+    padding: 0;
+    left:0;
+    top: 0;
+    margin:0;
+    padding-top: 36px;
+}
+
+.sidenav button{
+    width: 100%;
+    margin: 0;
+    background: #8686a0;
+    font-size: 120%;
+    padding-bottom: 12px;
+    border-color: #dfe7e8;
+    border-style:solid;
+
+}
+
+.sidenav button:hover{
+    background-color: #97a8f3;
 }
