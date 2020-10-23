@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/build.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produktdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/produktdata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +81,12 @@
       <workItem from="1600862465082" duration="14628000" />
       <workItem from="1601045643674" duration="3702000" />
       <workItem from="1602339425373" duration="9337000" />
-      <workItem from="1602425882604" duration="5167000" />
+      <workItem from="1602425882604" duration="5852000" />
+      <workItem from="1602505532603" duration="3006000" />
+      <workItem from="1602595045547" duration="609000" />
+      <workItem from="1602608470393" duration="6400000" />
+      <workItem from="1602622965540" duration="618000" />
+      <workItem from="1603455702893" duration="10373000" />
     </task>
     <servers />
   </component>
@@ -105,15 +110,28 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="758" y="310" key="#Web_Browsers/0.0.1920.1044@0.0.1920.1044" timestamp="1601045934424" />
+    <state x="424" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603458315172">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="424" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1603458315172" />
+    <state x="464" y="157" key="SettingsEditor" timestamp="1603458288850">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="464" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1603458288850" />
     <state x="781" y="683" width="358" height="549" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602429839566">
       <screen x="0" y="460" width="1920" height="1080" />
     </state>
     <state x="781" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1601045933219" />
     <state x="1562" y="310" width="675" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3840.1504@0.0.3840.1504" timestamp="1602348805978" />
     <state x="781" y="683" width="358" height="549" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.460.1920.1080/1920.0.1920.1080@0.460.1920.1080" timestamp="1602429839566" />
-    <state x="665" y="697" width="589" height="570" key="find.popup" timestamp="1602428171137">
-      <screen x="0" y="460" width="1920" height="1080" />
+    <state x="775" y="438" width="359" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603457650499">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="775" y="438" width="359" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1603457650499" />
+    <state x="665" y="229" width="589" height="551" key="find.popup" timestamp="1603463825930">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="665" y="229" width="589" height="551" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1603463825930" />
     <state x="665" y="697" width="589" height="570" key="find.popup/0.460.1920.1080/1920.0.1920.1080@0.460.1920.1080" timestamp="1602428171137" />
     <state x="624" y="238" key="run.anything.popup" timestamp="1599825567680">
       <screen x="0" y="0" width="1920" height="1044" />
@@ -123,16 +141,5 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="618" y="230" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599777792515" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/build.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
